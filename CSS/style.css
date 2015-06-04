@@ -1,24 +1,38 @@
 body
 h1
+{
+font-family: 'Source Sans Pro', sans-serif;
+text-align: center;
+}
+
 <style>
 	div.img IMG_9898.JPG
 	{
 		margin: 0px;
 		padding: 0px;
-		width: 100%;
+		width: 50%;
 		height: auto;
 		align: center;
 	}
 
-	#slogan
+body
+{
+	font-family: 'Arimo', sans-serif;
+}
+div
+{
+	background-image: url("IMG_9898.JPG");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
 	
-	background
+	
 	background-color: #000000;
 	color: white;
 	font-size
 	font-style: helvetica;
 	font-weight
-	text-align
+	text-align: center;
 	text-decoration
 	text-transform
 	line-height
