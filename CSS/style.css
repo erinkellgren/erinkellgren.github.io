@@ -1,33 +1,26 @@
-body
-h1
-{
-font-family: 'Source Sans Pro', sans-serif;
-text-align: center;
+* {
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
 }
-
-<style>
-	div.img IMG_9898.JPG
-	{
-		margin: 0px;
-		padding: 0px;
-		width: 50%;
-		height: auto;
-		align: center;
-	}
-
-body
-{
+body {
 	font-family: 'Arimo', sans-serif;
 }
-div
-{
-	background-image: url("IMG_9898.JPG");
-	background-size: 100%;
+h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	text-align: center;
+}
+#splash {
+	background-image: url("../images/IMG_9898.JPG");
+	background-size: cover;
 	background-repeat: no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	height:100vh;
 }
 	
 	
-	background-color: #000000;
+/*	background-color: #000000;
 	color: white;
 	font-size
 	font-style: helvetica;
@@ -38,4 +31,4 @@ div
 	line-height
 	margin
 	padding
-	border
+	border  */
