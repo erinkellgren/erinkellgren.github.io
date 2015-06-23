@@ -4,11 +4,25 @@
 	padding:0;
 }
 body {
+	color:#333;
 	font-family: 'Arimo', sans-serif;
+	font-size:16px;
+}
+section{
+	border:2px solid black;
+	max-width:75em;
+	margin:auto;
+	padding:5em 0;
 }
 h1 {
 	font-family: 'Source Sans Pro', sans-serif;
 	text-align: center;
+}
+blockquote {
+	font-size:2em;
+}
+cite {
+	font-size:.5em;
 }
 #splash {
 	background-image: url("../images/IMG_9898.JPG");
@@ -16,9 +30,13 @@ h1 {
 	background-repeat: no-repeat;
 	background-position:center;
 	background-attachment:fixed;
-	height:100vh;
+	/*height:100vh;*/
+	width:100%;
 }
-	
+#splash img {
+	display:block;
+	margin:auto;
+}
 	
 /*	background-color: #000000;
 	color: white;
