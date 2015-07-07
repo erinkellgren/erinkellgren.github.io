@@ -3,13 +3,16 @@
 	margin:0;
 	padding:0;
 }
+p+p, blockquote+blockquote {
+	margin-top:1em;
+}
 body {
 	color:#333;
 	font-family: 'Arimo', sans-serif;
 	font-size:16px;
 }
 nav a {
-    display: block;
+    display: inline-block;
     width: 120px;
     font-weight: bold;
     color: #FFFFFF;
@@ -26,6 +29,9 @@ section{
 	border:2px solid black;
 	margin:auto;
 	padding:5em 0;
+}
+section#about {
+	background-color:orange;
 }
 h2 {
 	font-family: 'Source Sans Pro', sans-serif;
